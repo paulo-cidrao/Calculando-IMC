@@ -1,0 +1,67 @@
+*{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    font-family: 'Rubik', sans-serif;
+}
+body{
+    background: linear-gradient(50deg, #E65C00 0%, #F9D423);
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+/*forms */
+form {
+    background-color: #ffff;
+    color: black;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 15px 5px 5px black;
+    user-select: none;;
+}
+/*label altura*/
+.altura{
+    align-items: initial;
+    margin-bottom: 15px;
+    user-select: none;;
+}
+/*label peso*/
+.peso{
+    margin-top: 15px;
+    user-select: none;;
+}
+/*botão calcular*/
+.btn{
+    margin-top: 15px;
+    padding: 10px  15px;
+    transform: translateY(20px);
+    cursor: pointer;
+    background: linear-gradient(50deg, #E65C00 0%, #F9D423);
+    font-weight: 750;
+    box-shadow: 5px 3px 2px 2px black;
+    user-select: none;
+}
+.altura>input{
+    width: 100%;
+    font-weight: 600;
+    user-select: none;;
+}
+.peso>input{
+    width: 100%;
+    font-weight: 600;
+    user-select: none;
+}
+.res{
+    transform: translateY(20px);
+    padding-top: 20px;
+    user-select: none;;
+}
+
