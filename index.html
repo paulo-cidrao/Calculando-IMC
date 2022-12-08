@@ -7,26 +7,57 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Rubik:ital@1&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="./style.css">
     <title>Calculando o IMC</title>
 </head>
 <body>
-    <div class="container">
-        <form >
-            <label for="" class="altura">
-                <h2>Digite sua Altura:</h2>
-                <input type="text" name="altura" class="Altura" placeholder="Digite a sua altura em cm:">
-            </label>
-            <label for="" class="peso">
-                <h2>Digite seu Peso:</h2>
-                <input type="text" name="peso" class="Peso" placeholder="Digite o seu peso:">
-            </label>
-            <button class="btn" type="button" onclick="calcular()">Calcule o seu IMC</button>
-            <div class="res">
-                
-            </div> 
-        </form>
+    <div class="tabela">
+        <div class="indice">
+            <h2>IMC</h2>
+            <li>Maior que 18,5</li>
+            <li>Entre 18,5 e 24,9</li>
+            <li>Entre 25,0 e 29,9</li>
+            <li>Entre 30,0 e 39,9</li>
+            <li>Maior que 40,0</li>
+        </div>
+        <div class="classifica">
+            <h2>Classificação</h2>
+            <li>Magreza</li>
+            <li>Normal</li>
+            <li>Sobrepeso</li>
+            <li>Obesidade</li>
+            <li>Obesidade Grave</li>
+        </div>
+        <div class="Grau">
+            <h2>Obesidade (Grau)</h2>
+            <li>0</li>
+            <li>0</li>
+            <li>I</li>
+            <li>II</li>
+            <li>III</li>
+        </div>
+
     </div>
-   <script src="/script.js"></script> 
+
+
+        <div class="container">
+            <form >
+                <label for="" class="altura">
+                    <h2>Digite sua Altura:</h2>
+                    <input type="text" name="altura" class="Altura" placeholder="Digite a sua altura em cm:">
+                </label>
+                <label for="" class="peso">
+                    <h2>Digite seu Peso:</h2>
+                    <input type="text" name="peso" class="Peso" placeholder="Digite o seu peso:">
+                </label>
+                <button class="btn" type="button" onclick="calcular()">Calcule o seu IMC</button>
+                <div class="res">
+                    
+                </div> 
+            </form>
+        </div>
+            
+    
+   <script src="./script.js"></script> 
 </body>
 </html>

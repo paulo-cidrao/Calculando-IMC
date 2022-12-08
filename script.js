@@ -9,15 +9,16 @@ function calcular(){
     if(!altura || !peso){
         resultado.innerHTML = `<p>Dados inválidos!</p>`
     }
+    // fazer a alteção da linha 16
     else if(IMC<18.5){
-        resultado.innerHTML='<p>Você está abaixo do peso ideal!</p>'
+        resultado.innerHTML=`O seu IMC é de ${IMC.toFixed(2)}`
     } else if(IMC>18.5 && IMC<24.99){
-        resultado.innerHTML='<p>Você está OK!</p>'
+        resultado.innerHTML= `O seu IMC é de ${IMC.toFixed(2)}`
     }else if(IMC>25 && IMC<29.99){
-        resultado.innerHTML='<p>Você está com sobrepeso!</p>'
+        resultado.innerHTML=`O seu IMC é de ${IMC.toFixed(2)}`
     }else if(IMC>30 && IMC<39.99){
-        resultado.innerHTML='<p>Você está obeso!</p>'
+        resultado.innerHTML=`O seu IMC é de ${IMC.toFixed(2)}`
     }else if(IMC>40){
-        resultado.innerHTML='<p>Você com obesidade grave!</p>'
+        resultado.innerHTML=`O seu IMC é de ${IMC.toFixed(2)}`
     }
 }

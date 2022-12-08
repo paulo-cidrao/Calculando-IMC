@@ -12,9 +12,11 @@ body{
     background: linear-gradient(50deg, #E65C00 0%, #F9D423);
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    
    
 }
+
 /*forms */
 form {
     background-color: #ffff;
@@ -25,7 +27,8 @@ form {
     padding: 30px;
     border-radius: 5px;
     box-shadow: 10px 3px 10px rgba(36, 29, 29, 0.5);
-    user-select: none;;
+    user-select: none;
+    margin-left: 20px;
 }
 /*label altura*/
 .altura{
@@ -63,5 +66,25 @@ form {
     transform: translateY(20px);
     padding-top: 20px;
     user-select: none;;
+}
+.tabela{
+    background-color: #ffff;
+    list-style: none;
+    border-radius: 5px;
+    display: flex;;
+    align-items: center;
+    box-shadow: 10px 3px 10px rgba(36, 29, 29, 0.5);
+    padding: 15px;
+}
+.indice{
+    padding-right: 15px;
+    user-select: none;
+}
+.Grau{
+    padding-left: 15px;
+    user-select: none;
+}
+.classifica{
+    user-select: none;
 }
 
