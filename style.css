@@ -13,6 +13,7 @@ body{
     display:flex;
     align-items: center;
     justify-content: center;
+    user-select: none;
     
    
 }
@@ -23,7 +24,7 @@ form {
     color: black;
     display: flex;
     justify-content: space-between;
-    flex-direction: column;
+    flex-direction:column ;
     padding: 30px;
     border-radius: 5px;
     box-shadow: 10px 3px 10px rgba(36, 29, 29, 0.5);
@@ -34,12 +35,12 @@ form {
 .altura{
     align-items: initial;
     margin-bottom: 15px;
-    user-select: none;;
+    
 }
 /*label peso*/
 .peso{
     margin-top: 15px;
-    user-select: none;;
+    
 }
 /*botão calcular*/
 .btn{
@@ -50,22 +51,22 @@ form {
     background: linear-gradient(50deg, #E65C00 0%, #F9D423);
     font-weight: 750;
     box-shadow: 10px 3px 10px rgba(36, 29, 29, 0.5);
-    user-select: none;
+    
 }
 .altura>input{
     width: 100%;
     font-weight: 600;
-    user-select: none;;
+    
 }
 .peso>input{
     width: 100%;
     font-weight: 600;
-    user-select: none;
+    
 }
 .res{
     transform: translateY(20px);
     padding-top: 20px;
-    user-select: none;;
+    
 }
 .tabela{
     background-color: #ffff;
@@ -78,13 +79,18 @@ form {
 }
 .indice{
     padding-right: 15px;
-    user-select: none;
+    
 }
 .Grau{
     padding-left: 15px;
-    user-select: none;
-}
-.classifica{
-    user-select: none;
 }
 
+
+ @media screen and (max-width: 840px) {
+    body{
+        flex-direction: column;;
+    }
+    boddy> .container{
+        margin-top: 20px;
+    }
+ }
