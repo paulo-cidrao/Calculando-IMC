@@ -24,7 +24,7 @@ form {
     flex-direction: column;
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 15px 5px 5px black;
+    box-shadow: 10px 3px 10px rgba(36, 29, 29, 0.5);
     user-select: none;;
 }
 /*label altura*/
@@ -46,7 +46,7 @@ form {
     cursor: pointer;
     background: linear-gradient(50deg, #E65C00 0%, #F9D423);
     font-weight: 750;
-    box-shadow: 5px 3px 2px 2px black;
+    box-shadow: 10px 3px 10px rgba(36, 29, 29, 0.5);
     user-select: none;
 }
 .altura>input{
